@@ -1,13 +1,14 @@
 {
-  "main.css": "/react_spa/static/css/main.8cbd6dee.chunk.css",
-  "main.js": "/react_spa/static/js/main.8d684c60.chunk.js",
-  "main.js.map": "/react_spa/static/js/main.8d684c60.chunk.js.map",
-  "static/js/1.00fc6f07.chunk.js": "/react_spa/static/js/1.00fc6f07.chunk.js",
-  "static/js/1.00fc6f07.chunk.js.map": "/react_spa/static/js/1.00fc6f07.chunk.js.map",
+  "main.css": "/react_spa/static/css/main.1958dad7.chunk.css",
+  "main.js": "/react_spa/static/js/main.a64357e1.chunk.js",
+  "main.js.map": "/react_spa/static/js/main.a64357e1.chunk.js.map",
+  "static/js/1.9b7dad28.chunk.js": "/react_spa/static/js/1.9b7dad28.chunk.js",
+  "static/js/1.9b7dad28.chunk.js.map": "/react_spa/static/js/1.9b7dad28.chunk.js.map",
   "runtime~main.js": "/react_spa/static/js/runtime~main.e69d20ec.js",
   "runtime~main.js.map": "/react_spa/static/js/runtime~main.e69d20ec.js.map",
-  "static/css/main.8cbd6dee.chunk.css.map": "/react_spa/static/css/main.8cbd6dee.chunk.css.map",
+  "static/media/largeimage.jpg": "/react_spa/static/media/largeimage.678fd357.jpg",
+  "static/css/main.1958dad7.chunk.css.map": "/react_spa/static/css/main.1958dad7.chunk.css.map",
   "index.html": "/react_spa/index.html",
-  "precache-manifest.b596cc525bae97c1d460842dabda5620.js": "/react_spa/precache-manifest.b596cc525bae97c1d460842dabda5620.js",
+  "precache-manifest.9c0337b1d3cadc51f4c9363c810789a6.js": "/react_spa/precache-manifest.9c0337b1d3cadc51f4c9363c810789a6.js",
   "service-worker.js": "/react_spa/service-worker.js"
 }
