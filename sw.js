@@ -6,7 +6,7 @@ if (workbox) {
   console.log(`Boo! Workbox didn't load 😬`);
 }
 workbox.precaching.precacheAndRoute([
-  new RegExp('.*')
+  '/largeimage.*\.jpg',
 ]);
 workbox.routing.registerRoute(
     new RegExp('.*'),
