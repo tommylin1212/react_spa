@@ -5,7 +5,7 @@ if (workbox) {
 } else {
   console.log(`Boo! Workbox didn't load 😬`);
 }
-workbox.precaching.precaheAndRoute([
+workbox.precaching.precacheAndRoute([
   new RegExp('.*')
 ]);
 workbox.routing.registerRoute(
