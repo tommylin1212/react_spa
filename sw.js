@@ -6,7 +6,7 @@ if (workbox) {
   console.log(`Boo! Workbox didn't load 😬`);
 }
 
-/*workbox.routing.registerRoute(
+workbox.routing.registerRoute(
     new RegExp('.*'),
     workbox.strategies.networkFirst()
-  );*/
+  );
