@@ -1,22 +1,17 @@
 importScripts('https://storage.googleapis.com/workbox-cdn/releases/3.6.1/workbox-sw.js');
 
-if (workbox) {
-  console.log(`Yay! Workbox is loaded 🎉`);
-} else {
-  console.log(`Boo! Workbox didn't load 😬`);
-}
 workbox.precaching.precacheAndRoute([
   {
     "url": "index.html",
-    "revision": "92cc9d9867933ab050bdccba8f72217d"
+    "revision": "bd72397545634f328848160a627fb5e5"
   },
   {
-    "url": "precache-manifest.9c0337b1d3cadc51f4c9363c810789a6.js",
-    "revision": "9c0337b1d3cadc51f4c9363c810789a6"
+    "url": "precache-manifest.454490f1efbd586d90ae7720d2e8c739.js",
+    "revision": "454490f1efbd586d90ae7720d2e8c739"
   },
   {
     "url": "service-worker.js",
-    "revision": "7ce678e9b6f30b1a9866839b70f42b3c"
+    "revision": "62be7125a0b6c1e7f12a5cecb57f44b1"
   },
   {
     "url": "static/css/main.1958dad7.chunk.css",
@@ -27,8 +22,8 @@ workbox.precaching.precacheAndRoute([
     "revision": "10052771a20565342ebecf46bf4700df"
   },
   {
-    "url": "static/js/main.a64357e1.chunk.js",
-    "revision": "a5c0034616701587b1dd0060b51a2ce5"
+    "url": "static/js/main.53ce1de7.chunk.js",
+    "revision": "c313b8fc462fa3917d5c0e64551db189"
   },
   {
     "url": "static/js/runtime~main.e69d20ec.js",
@@ -39,10 +34,8 @@ workbox.precaching.precacheAndRoute([
     "revision": "678fd35739c62777f82249cc931ec9ac"
   }
 ]);
-/*workbox.precaching.precacheAndRoute([
-  new RegExp('.*\.jpg')
-]);*/
+
 workbox.routing.registerRoute(
     new RegExp('.*'),
-    workbox.strategies.networkFirst()
+    workbox.strategies.cacheFirst()
   );
