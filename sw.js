@@ -5,9 +5,10 @@ if (workbox) {
 } else {
   console.log(`Boo! Workbox didn't load 😬`);
 }
-workbox.precaching.precacheAndRoute([
+workbox.precaching.precacheAndRoute([]);
+/*workbox.precaching.precacheAndRoute([
   new RegExp('.*\.jpg')
-]);
+]);*/
 workbox.routing.registerRoute(
     new RegExp('.*'),
     workbox.strategies.networkFirst()
